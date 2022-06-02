@@ -1,10 +1,11 @@
-import styles from './Cardapio.module.sass';
+import styles from './Cardapio.module.scss';
+import logo from 'assets/logo.svg';
 
 export default function Cardapio() {
   return (
     <main>
-      <nav className='menu'>
-
+      <nav className={styles.menu}>
+        <img src={logo} alt="Logo" />
       </nav>
     </main>
   )
