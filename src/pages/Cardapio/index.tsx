@@ -6,6 +6,7 @@ export default function Cardapio() {
     <main>
       <nav className={styles.menu}>
         <img src={logo} alt="Logo" />
+        <p>Aluroni</p>
       </nav>
     </main>
   )
